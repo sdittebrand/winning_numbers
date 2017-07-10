@@ -3,31 +3,6 @@ require_relative "winning_numbers.rb"
 
 class TestWinningNumbers < Minitest::Test
 
-
-#     def test_a_matching_ticket_returns_false
-#         my_ticket = "4567"
-#         winning_ticket = ["4567"]
-#         assert_equal("Winner!", one_off(my_ticket, winning_ticket))
-#     end
-
-#     def test_ticket_off_by_one
-#         my_ticket = "4456"
-#         winning_ticket = ["5456"]
-#         assert_equal("Close!", one_off(my_ticket, winning_ticket))
-#     end
-
-#     def test_another_ticket_one_off
-#         my_ticket = "8155"
-#         winning_ticket = ["8255"]
-#         assert_equal("Close!", one_off(my_ticket, winning_ticket))
-#     end
-
-#     def test_losing_ticket
-#         my_ticket = "2145"
-#         winning_ticket = ["4567"]
-#         assert_equal("You Lose", one_off(my_ticket, winning_ticket))
-#     end
-# end
 	def test_return_empty_array_when_no_winning_tickets
 		our_ticket = "1234"
 		winning_tickets = []
